@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)),               url(pic_1.jpg);
+    background-size: cover;
+    /* position: relative; */
+
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    /* background-color: hsla(240, 67%, 94%, 0.4); */
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:'Lucida Sans';
+    /* border: 2px solid black ; */
+
+}
+
+.elements a {
+    text-decoration: none;
+    color: rgb(222, 222, 209);
+    font-weight: bolder;
+    font-size: 25px;
+    /* border: peachpuff solid 2px; */
+    padding: 10px 30px;
+    position: relative;
+} 
+
+.elements a:hover {
+    border-bottom: 2px solid rgb(203, 85, 31);
+    animation: elements_hover 0.4s linear 0;
+}
+
+@keyframes elements_hover {
+    from {
+        border-bottom-color: transparent;
+    }
+    to {
+        border-bottom-color: rgb(203, 85, 31);
+    }
+}
+
+.register a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(203, 85, 31);
+    /* border: solid 5px black; */
+    border-radius: 12%;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 10px 30px;
+    transition: 0.4s;
+}
+
+.register a:hover {
+    background: transparent;
+    border: 2px solid rgb(203, 85, 31);
+}
+
+hr {
+    border: none;
+    height: 4px;
+    background-color: #faf9f9;
+    box-shadow: 0 2px 4px rgba(239, 222, 222, 0.2); 
+}
+
+.main {
+    max-width: 650px;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 50%;
+    transform: translate(-50%, 50%);
+    text-align: center;
+    color: white;
+}
+
+.main span {
+    letter-spacing: 2px;
+}
+
+.main h1{
+    font-size: 2.5em;
+}
+
+.main a {
+    text-decoration: none;
+    background-color:rgb(203, 85, 31) ;
+    color: white;
+    padding: 8px 30px;
+    letter-spacing: 2.5px;
+    margin-bottom: 20px;
+    border-radius: 8%;
+    transition: 0.4;
+}
+
+.main a:hover {
+    background: transparent;
+    border: 2px solid rgb(203, 85, 31);
+}
+
+.schedule h2{
+    margin-top: 90px;
+}
+
+.schedule p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+footer {
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+footer .social {
+    margin-top: 10px;
+}
+
+footer .social a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+}
+
+footer .social a:hover {
+    color: #007BFF;
+}
+
+
+
+
+
+
+
